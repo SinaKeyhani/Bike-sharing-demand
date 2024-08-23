@@ -54,7 +54,7 @@ The demand for bike rentals at different hours is directly influenced by weather
 
 2. Analysing hour of the day for different Seasons 
 <p align="center">
-<img src="https://github.com/SinaKeyhani/Bike-sharing-demand/blob/main/Hour%20vs%20mean%20count%20for%20seasons.png" alt="Project Image" width="400" height="600"/>
+<img src="https://github.com/SinaKeyhani/Bike-sharing-demand/blob/main/Hour%20vs%20mean%20count%20for%20seasons.png" alt="Project Image" width="600" height="500"/>
 </p>
 
 It's evident that peak hours for bike rentals remain consistent across seasons, likely due to work-related commuting patterns that persist regardless of the time of year. 
@@ -62,7 +62,7 @@ Interestingly, despite the consistent peak hour trend, Winter stands out with lo
 
 3. Comparing demands between subscriber and pay as you go customers by days
 <p align="center">
-<img src="https://github.com/SinaKeyhani/Bike-sharing-demand/blob/main/subscriber%20vs%20Casual%20customers%20by%20weeks.png" alt="Project Image" width="400" height="600"/>
+<img src="https://github.com/SinaKeyhani/Bike-sharing-demand/blob/main/subscriber%20vs%20Casual%20customers%20by%20weeks.png" alt="Project Image" width="600" height="500"/>
 </p>
 
 This graph illustrates the difference in demand between subscribers and casual customers. It is clear that subscribers tend to use the service more during the weekdays, likely due to work or school commitments. In contrast, casual customer demand is higher on weekends. This pattern suggests that targeting casual customers with marketing strategies during weekdays could be an effective tactic for converting them into subscribers.
