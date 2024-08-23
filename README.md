@@ -17,8 +17,7 @@ This project uses regression algorithms to predict the hourly bike rental counts
 ## Features:
 
                   | Variable      | Description                                                                                                 |
-                  | ------------- | ----------------------------------------------------------------------------------------------------------- |
-                  | id            | A notation for a house                                                                                      |
+                  | ------------- | ----------------------------------------------------------------------------------------------------------- |                                                                   
                   | season        | 1 = Winter, 2 = Spring, 3 = Summer, 4 = autumn                                                              |
                   | holiday       | 1 = holiday, 0 = not holiday                                                                                |
                   | workingday    | 1 = working day, 0 = not working day                                                                        |
