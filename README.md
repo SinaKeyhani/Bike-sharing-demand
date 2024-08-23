@@ -1,7 +1,7 @@
 # Bike Sharing Demand Prediction🚴🏻
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/SinaKeyhani/Bike-sharing-demand/main/borisbike.avif" alt="Project Image" width="400" height="400"/>
+<img src="https://raw.githubusercontent.com/SinaKeyhani/Bike-sharing-demand/main/borisbike.avif" alt="Project Image" width="400" height="300"/>
 </p>
 
 ## Introduction
@@ -16,19 +16,19 @@ This project uses regression algorithms to predict the hourly bike rental counts
 
 ## Features:
 
-| Variable      | Description                                                                                                 |
-| ------------- | ----------------------------------------------------------------------------------------------------------- |
-| id            | A notation for a house                                                                                      |
-| season        | 1 = Winter, 2 = Spring, 3 = Summer, 4 = autumn                                                              |
-| holiday       | 1 = holiday, 0 = not holiday                                                                                |
-| workingday    | 1 = working day, 0 = not working day                                                                        |
-| weather       | 1 = Clear, 2 = Cloudy, Mist, 3 = Snow,4 = Heavy Rain                                                        |
-| temp          | temperature in Celsius                                                                                      |
-| atemp         | "feels like" temperature in Celsius                                                                         |
-| floowindspeedr| wind speed                                                                                                  |
-| casual        | number of non-registered user rentals initiated                                                             |
-| registered    | number of registered user rental initiated                                                                  |
-| count         | number of total rentals                                                                                     |
+                  | Variable      | Description                                                                                                 |
+                  | ------------- | ----------------------------------------------------------------------------------------------------------- |
+                  | id            | A notation for a house                                                                                      |
+                  | season        | 1 = Winter, 2 = Spring, 3 = Summer, 4 = autumn                                                              |
+                  | holiday       | 1 = holiday, 0 = not holiday                                                                                |
+                  | workingday    | 1 = working day, 0 = not working day                                                                        |
+                  | weather       | 1 = Clear, 2 = Cloudy, Mist, 3 = Snow,4 = Heavy Rain                                                        |
+                  | temp          | temperature in Celsius                                                                                      |
+                  | atemp         | "feels like" temperature in Celsius                                                                         |
+                  | floowindspeedr| wind speed                                                                                                  |
+                  | casual        | number of non-registered user rentals initiated                                                             |
+                  | registered    | number of registered user rental initiated                                                                  |
+                  | count         | number of total rentals                                                                                     |
 
 ## Approach: 
 Spent much time dealing with exploratory data analysis and feature selection before fitting data into the model. Tried three different models, Linear Regression and Random Forest and Decion tree and then by using Root Mean Squared Logarithmic Error (RMSLE) measured the model performance.
