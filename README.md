@@ -4,28 +4,32 @@
 <img src="https://raw.githubusercontent.com/SinaKeyhani/Bike-sharing-demand/main/borisbike.avif" alt="Project Image" width="500" height="400"/>
 </p>
 
+## Introduction
 Bike-sharing systems are a modern twist on bike rentals, with everything automated from sign-up to return. Users can easily grab a bike at one spot and drop it off at another. They're becoming popular because they help with traffic, the environment, and health.
 
 This dataset offers key details about bike rentals, including factors like date and time, weather, and holidays. It provides hourly rental data over a two-year period. For this competition, the training set includes data from the first 19 days of each month, while the test set covers the 20th to the end of the month.
 
+## Objective: 
 This project uses regression algorithms to predict the hourly bike rental counts in the test set based on prior data. We'll evaluate models using the Root Mean Squared Logarithmic Error (RMSLE) to choose the most accurate one.
 
+## Features:
 
+| Variable      | Description                                                                                                 |
+| ------------- | ----------------------------------------------------------------------------------------------------------- |
+| id            | A notation for a house                                                                                      |
+| season        | 1 = Winter, 2 = Spring, 3 = Summer, 4 = autumn                                                              |
+| holiday       | 1 = holiday, 0 = not holiday                                                                                |
+| workingday    | 1 = working day, 0 = not working day                                                                        |
+| weather       | 1 = Clear, 2 = Cloudy, Mist, 3 = Snow,4 = Heavy Rain                                                        |
+| temp          | temperature in Celsius                                                                                      |
+| atemp         | "feels like" temperature in Celsius                                                                         |
+| floowindspeedr| wind speed                                                                                                  |
+| casual        | number of non-registered user rentals initiated                                                             |
+| registered    | number of registered user rental initiated                                                                  |
+| count         | number of total rentals                                                                                     |
 
-
-
-## Introduction
-Welcome to the Stock Market Analysis project! This project delves into the world of stock market data, focusing on technical analysis, visualization, and risk assessment. Our data source is Yahoo Finance, and we're specifically analyzing the performance of the Magnificent 7 stocks from August 2023 to August 2024.
-
-## Objectives
-In this analysis, we aim to explore the following questions:
-
-Price Change Over Time: What was the change in the stock price over the specified period?
-Daily Returns: What was the average daily return of the stock?
-Moving Averages: What were the moving averages for the various stocks?
-Correlation Analysis: How are the closing prices of different stocks correlated?
-Stock Correlations: What is the correlation between the different stocks overall?
-Risk Assessment: How much value is at risk by investing in a particular stock?
+## Approach: 
+Spent much time dealing with exploratory data analysis and feature selection before fitting data into the model. Tried three different models, Linear Regression and Random Forest and Decion tree and then by using Root Mean Squared Logarithmic Error (RMSLE) measured the model performance.
 
 
 ## Installation & Usage
@@ -34,7 +38,7 @@ To run this project locally, follow these steps:
 1. Ensure Python is installed on your machine.
 2. Clone this repository
    ```
-    git clone https://github.com/SinaKeyhani/Stock_analysis/tree/main
+    git clone https://github.com/SinaKeyhani/Buke-sharing-demand/tree/main
    ```
 3. Install the required Python libraries for this project.
 
