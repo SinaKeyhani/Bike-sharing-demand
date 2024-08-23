@@ -43,15 +43,20 @@ To run this project locally, follow these steps:
 3. Install the required Python libraries for this project.
 
 ## Analytical Methods & Visualisation
-1. Time Series Analysis focus on closing 
+1. Analysing the effect of weather conditions on the demand in different hours
 <p align="center">
-<img src="https://github.com/SinaKeyhani/Stock_analysis/blob/main/newplot.png" alt="Project Image" width="600" height="600"/>
+<img src="https://github.com/SinaKeyhani/Bike-sharing-demand/blob/main/output.png" alt="Project Image" width="600" height="600"/>
 </p>
 
-2. Time Series Analysis focus on Volume 
+The demand for bike rentals at different hours is directly influenced by weather conditions. Specifically, we observe a significant increase in demand during periods of favorable weather, particularly between 7 to 8 AM and from 5 to 8 PM. These times consistently show high demand when the weather is clear and pleasant.
+
+2. Analysing hour of the day for different Seasons 
 <p align="center">
-<img src="https://github.com/SinaKeyhani/Stock_analysis/blob/main/newplot_vol.png" alt="Project Image" width="600" height="600"/>
+<img src="https://github.com/SinaKeyhani/Bike-sharing-demand/blob/main/Hour%20vs%20mean%20count%20for%20seasons.png" alt="Project Image" width="600" height="600"/>
 </p>
+
+It's evident that peak hours for bike rentals remain consistent across seasons, likely due to work-related commuting patterns that persist regardless of the time of year. 
+Interestingly, despite the consistent peak hour trend, Winter stands out with lower bike rental counts. This divergence could be attributed to the prevalence of cold conditions during ths Season.
 
 3. Volatility of Closing Prices
 <p align="center">
